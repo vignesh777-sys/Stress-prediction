@@ -1,0 +1,26 @@
+# forest = RandomForestClassifier(n_estimators=500, random_state=1)
+# forest.fit(X_train, y_train.values.ravel())
+# importances = forest.feature_importances_
+# for i in range(X_train.shape[1]):
+#     print("%2d) %-*s % f" % (i + 1, 30, data.columns[i], importances[i]))
+
+
+8
+# print("X_train shape:", X_train.shape)
+# print("y_train shape:", y_train.shape)
+# print("X_test shape:", X_test.shape)
+# print("y_test shape:", y_test.shape)
+# forest = RandomForestClassifier(n_estimators=500, random_state=1)
+# forest.fit(X_train, y_train.values.ravel())
+# importances = forest.feature_importances_
+# for i in range(X_train.shape[1]):
+#     print("%2d) %-*s %f" % (i + 1, 30, data.columns[i], importances[i]))
+
+
+# matrix = confusion_matrix(y_test, y_predict)
+# print("Confusion Matrix:")
+# print(matrix)
+# report = classification_report(y_test, y_predict)
+# # Print the classification report
+# print("Classification Report:")
+# print(report)
